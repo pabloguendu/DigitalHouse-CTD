@@ -1,0 +1,453 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  /* background-color: #e5e5e5; */
+  background-color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  flex-wrap: wrap;
+}
+header a:hover{
+  color: #9d9d9d;
+}
+a{
+  color: #1E1E26;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+  padding: 65px 0 0 0;
+  margin-bottom: 75px;
+
+}
+header section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.menu-mobile{
+  display: none;
+}
+
+header section ul {
+  display: flex;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+header section ul li {
+  padding: 10px;
+}
+.boton {
+  background-color: #f3603b;
+  width: 134px;
+  height: 44px;
+  font-weight:700 ;
+  font-size: 13px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  border-radius: 50px;
+  padding: 10px;
+  color: #ffffff;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.boton:hover{
+  background-color: #f3886d;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+main section {
+  display: flex;
+  align-items:start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+article.articulo1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 439px;
+  height: 386px;
+}
+article.articulo1 h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #232C50;
+}
+article.articulo1 span {
+  width: 350px;
+  height: 71px;
+}
+article.articulo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 450px;
+  height: 200px;
+}
+article.articulo2 h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color:#232851;
+}
+article.articulo2 span {
+  width: 337px;
+  height: 88px;
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+article.articulo3 {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+}
+.primer_boton{
+  list-style-image: url('../img/boton1.png');
+  padding:10px 25px;
+}
+.segundo_boton{
+  list-style-image: url('../img/boton2.png');
+  padding:10px 25px;
+}
+.tercer_boton{
+  list-style-image: url('../img/boton3.png');
+  padding:10px 25px;
+}
+article.articulo3 ol li h3 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+article.articulo3 ol li span{
+  width: 337px;
+}
+.seccionPerfiles {
+  display: flex;
+  justify-content: center;
+}
+
+.perfiles {
+  display: flex;
+  width: 445px;
+  height: 249px;
+  background-color: #fafafa;
+  padding: 20px 40px;
+  position: relative;
+  transition: opacity,450ms;
+}
+.perfiles:hover{
+  opacity: 50%;
+}
+.perfiles img {
+  width: 70px;
+  height: auto;
+  left: 42%;
+  bottom: 83%;
+  position: absolute;
+  justify-content: center;
+}
+.perfiles h4 {
+  position: absolute;
+  color: #3f4868;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  top: 25%;
+  left: 43%;
+
+}
+
+.perfiles span {
+  color: #b9b9c1;
+  font-size: 1rem;
+  margin-top: 25%;
+  height: auto;
+  text-align: center;
+  font-weight: 700;
+}
+p {
+  text-align: center;
+  margin-bottom: 75px;
+  color: #242E53;
+  font-size: 2rem;
+  font-weight:700;
+}
+.botonFinalMain{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+.banner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#F3613C;
+  height: 224px;
+  width:100%;
+
+}
+.banner span{
+  width:438px;
+  height:96px;
+  font-weight:700;
+  font-size: 2.5rem;
+  color:#FFFFFF;
+}
+.banner button{
+  color: #F3603B;
+  background: #FFFFFF;
+}
+.footerFinal{
+  background-color:#1E1E26;
+  display: flex;
+  justify-content: space-evenly;
+  height: 247px;
+  width: 100%;
+}
+.imagenFooter{
+color: #A0A0A0;
+font-weight: 600;
+}
+.footerFinal section:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.listaIconos{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 148px;
+  align-items: flex-start;
+  padding: 0;
+}
+.listaIconos i:hover{
+  color:red;
+}
+.footerFinal section:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navFooter{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: space-evenly;
+  height: 140px;
+  
+}
+.footerFinal section:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer a{
+  color: #ffffff;
+}
+footer a:hover{
+  color:red;
+}
+.banner button:hover{
+  background-color: #e4e1e1;
+}
+
+.empleos{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  color: #ffffff;
+  line-height: 30px;
+  justify-content: center;
+  height: 210px;
+}
+form{
+  position:absolute;
+
+}
+form input{
+  padding: 10px;
+  width: 201px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  border: none;
+  position: relative;
+  top: 60px;
+  color: #A0A0A0;
+  font-weight: 600;
+}
+.botonDeGo{
+  position: relative;
+  width: 63px;
+  height: 42px;
+  top:60px;
+  font-weight: 700;
+  background: #F3603B;
+  border-radius: 50px;
+  color: #ffffff;
+  border: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.botonDeGo:hover{
+  background-color: #f3886d;
+}
+.derechos{
+  position: relative;
+  color: #8C8C94;
+  font-size: 13px;
+  top:160px;
+
+}
+@media (min-width:374px) and (max-width:900px){
+  body{
+    background-image: url(../img/bg-tablet-pattern.svg);
+  }
+  header{
+    padding: 40px;
+    width: 375px;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  main{
+    width: 375px;
+    margin-left: 10px;
+  }
+  .menu-mobile{
+    display: initial;
+  }
+  .menu-desktop{
+    display: none;
+  }
+  main section{
+    width: 340px;
+    display: block;
+  }
+  article.articulo1{
+    width: 350px;
+  }
+  section article img{
+    width: 100%;
+  }
+  article.articulo1 h1{
+    font-size: 2.5rem;
+  }
+  article.articulo1 span{
+    width:340px;
+  }
+  .articulo2{
+    width: 375px !important;
+  }
+  .articulo2 ol{
+    width: 375px !important;
+
+  }
+  .articulo3{
+    padding: 40px;
+    width: 375px !important;
+    margin-bottom: 180px;
+  }
+  .primer_boton {
+    width: 75%;
+    padding: 0;
+  }
+  .segundo_boton{
+    width: 75%;
+    padding: 0;
+  }
+  .tercer_boton{
+    width: 75%;
+    padding: 0;
+    margin-bottom: 75px;
+  }
+  p{
+    margin-top: 70px;
+    text-align: left;
+    width:350px;
+  }
+  .perfiles{
+    width: 375px;
+  }
+  .botonFinalMain{
+    width: 350px;
+  }
+  .banner{
+    flex-wrap: wrap;
+    width: 375px;
+    height: 300px;
+    text-align: center;
+  }
+  .banner span{
+    margin:0px;
+    font-size: 2.3rem;
+  }
+  footer{
+    width:375px;
+  }
+  footer section{
+    flex-wrap: wrap;
+  }
+  .footerFinal{
+    flex-wrap: wrap;
+    width: 375px;
+    height: 350px;
+    flex-direction:column-reverse;
+  }
+  form input{
+    top:0;
+    left: 50px;
+  }
+  .botonDeGo{
+    top:0px;
+    left: 50px;
+  }
+  .navFooter{
+    position: relative;
+    justify-content: space-evenly;
+    height: 135px;
+    left: 60px;
+    bottom: 100px;
+  }
+  .empleos{
+    position: relative;
+    justify-content: space-evenly;
+    height: 120px;
+    top:24px
+  }
+  .derechos{
+    position: relative;
+    width: auto;
+    top: 310px;
+    left: 70px;
+  }
+  .imagenFooter{
+    position: relative;
+    bottom: 40px;
+
+  }
+  .listaIconos{
+    position: relative;
+    bottom: 110px;
+    width: 285px;
+
+  }
+
+}

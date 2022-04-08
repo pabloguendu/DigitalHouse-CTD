@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* border:2px red solid; */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    height: 428px;
+    width: 621.120361328125px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+/* input configuraciones */
+.input_config{
+    width: 620px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+    margin: 10px;
+}
+form button{
+    width: 614.25px;
+    height: 53.79px;
+
+background: #1CD1B0;
+border-radius: 23.011px;
+}
+header span {
+    background-color:#D1891C;
+    display:flex;
+    align-items: center;
+    padding-left: 2vh;
+    font-size: 15px;
+}
+header img {
+    display: flex;
+    background-color: #00669F;
+    align-items: center;
+    padding-left:20px;
+    font-size: 40px;
+    width: 100%;
+}
+.contenedor{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    font-size:16px;
+
+
+}
+.caja_articulos{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 529px;
+    margin: 30px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.layaout{
+    width: 100%;
+    background-size: cover;
+}
+.perfil {
+    position:absolute;
+    border-radius:50%;
+    top: 25%;
+}
+h3{
+    position: absolute;
+    top: 50%;
+}
+.corazon{
+    position: absolute;
+    left:5%;
+    top: 5%;
+}
+section div {
+    position: absolute;
+    bottom: 20%;
+    padding: 5%;
+    overflow:hidden;
+    
+}
+button {
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    background: #00669F;
+    color: white;
+    bottom: 5%;
+}
+footer div{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    background-color:#00669F;
+    font-size: 16px
+}
+@media (max-width: 420px) {
+    .contenedor{
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+    }
+    .caja_articulos{
+        margin: 10px 0;
+        width: 90%;
+    }
+}
