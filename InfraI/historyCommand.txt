@@ -1,0 +1,70 @@
+   1  ip a
+    2  exit
+    3  ls /etc
+    4  ls -ltrh
+    5  ls -ltrh /etc
+    6  curl cheat.sh
+    7  curl cheat.sh/ls
+    8  cat>listanombres
+    9  ls
+   10  cat listanombres
+   11  cat>listanombres2
+   12  cat listanombres listanombres2>listanombres3
+   13  cat listanombres3
+   14  mkdir nombres
+   15  mv listanombres3 nombres/
+   16  ls
+   17  mkdir nombres-bk
+   18  cp -r nombres/* nombres-bk
+   19  ls nombres-bk
+   20  cp -r nombres/ nombres-bk
+   21  ls nombres-bk
+   22  mv listanombres listanombres-old
+   23  ls
+   24  touch nuevoarchivo
+   25  ls
+   26  cat nuevoarchivo
+   27  grep Julieta nombres/listanombres3
+   28  grep Julieta nombres-bk/listanombres3
+   29  ps
+   30  ip a
+   31  ip a | grep 192.168
+   32  sudo apt install jq
+   33  sudo apt cowsay
+   34  sudo apt install cowsay
+   35  cowsay hello
+   36  ip a | grep 192 | cowsay
+   37  df
+   38  df -lh
+   39  curl cheat.sh/chmod
+   40  ls
+   41  chmod 777 listanombres2
+   42  ls
+   43  ping
+   44  ping -c 5 8.8.8.8
+   45  history
+ systemctl list-unit-files --type service -all
+    2  ip a
+    3  ip a | grep 192
+    4*
+    5  systemctl status apache2
+    6  ss -plnt
+    7  sudo apt install tcpdump
+    8  tcpdump -i eth1 port 80
+    9  history
+    2  exit
+    3  sudo systemctl | grep running
+    6  sudo systemctl | grep running
+    7  sudo systemctl start apache2
+    8  sudo systemctl | grep running
+   10  sudo systemctl status apache2
+   11  sudo apt-get install tcpdump
+   12  sudo tcpdump -d
+   14  ip a
+   15  sudo tcpdump -i eth1 port 80
+   16  history
+
+
+
+
+

@@ -1,0 +1,30 @@
+    1  ip a
+    2  exit
+    3  ss -plnt
+    4  sudo apt install jq
+    5  clear
+    6  cat>lista_nombres
+    7  ls
+    8  #!/bin/bash
+    9  nano.script.sh
+   10  nano script.sh
+   11  open script.sh
+   12  nano script.sh
+   13  curl script.sh/chmod
+   14  script.sh
+   15  ./script.sh
+   16  chmod +x script.sh
+   17  ./script.sh
+   18  nano script.sh
+   19  chmod +x script.sh
+   20  ./script.sh
+   21  history
+   22  nano script.sh
+   23  ./script.sh
+   24  nano script.sh
+   25  ./script.sh
+   26  nano script.sh
+   27  ./script.sh
+   28  nano script.sh
+   29  ./script.sh
+   30  history
