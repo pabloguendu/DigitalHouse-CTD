@@ -2,8 +2,6 @@ package com.example.finalB1.finalB1.service;
 
 import com.example.finalB1.finalB1.entity.Odontologo;
 import com.example.finalB1.finalB1.repository.OdontologoRepository;
-import org.apache.log4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,11 +32,12 @@ public class ServiceOdontologo {
         odontologoRepository.deleteById(id);
     }
 
-    public void update (Odontologo o,String matricula,String apellido,String nombre){
-        Optional<Odontologo> odontologo=odontologoRepository.findById(o.getId());
-        o.setMatricula(matricula);
-        o.setNombre(nombre);
-        o.setApellido(apellido);
+    public Odontologo update (Odontologo o){
+        Odontologo odonto=odontologoRepository.getById(o.getId());
+        odonto.setNombre(o.getNombre());
+        odonto.setApellido(o.getApellido());
+        odonto.setMatricula(o.getMatricula());
+        return odontologoRepository.save(odonto);
 
     }
 

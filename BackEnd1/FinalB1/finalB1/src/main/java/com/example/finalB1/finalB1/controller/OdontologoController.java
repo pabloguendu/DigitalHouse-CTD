@@ -24,14 +24,17 @@ public class OdontologoController {
     public ResponseEntity<Odontologo> odontologoNew(@RequestBody Odontologo odontologo){
         return ResponseEntity.ok(serviceOdontologo.agregar(odontologo));
     }
-    public Optional<Odontologo> buscar(Long id){
+    public Optional<Odontologo> search(Long id){
         return serviceOdontologo.buscar(id);
 
     }
+    @DeleteMapping("{id}")
+    public void delete(@PathVariable("id") Long id){
+        serviceOdontologo.borrar(id);
+    }
     @PutMapping
-    public ResponseEntity<Odontologo> updateOdontologo(@RequestBody Odontologo o,String matricula, String apellido, String nombre ){
-        return ResponseEntity.ok(serviceOdontologo.update(o,matricula,apellido,nombre));
-
+    public ResponseEntity<Odontologo> updateOdontologo(@RequestBody Odontologo o){
+        return ResponseEntity.ok(serviceOdontologo.update(o));
     }
 
 

@@ -1,12 +1,16 @@
 package com.example.finalB1.finalB1.entity;
 
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.*;
 import java.sql.Date;
 
+@Getter
+@Setter
 @Entity
 @Data
+@NoArgsConstructor
+@Table(name = "paciente")
 public class Paciente {
 
     @Id
