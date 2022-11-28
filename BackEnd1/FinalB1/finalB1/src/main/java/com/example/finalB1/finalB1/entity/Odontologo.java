@@ -2,29 +2,28 @@ package com.example.finalB1.finalB1.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
-
 import javax.persistence.*;
-import java.util.List;
+import java.util.Set;
 
-@Data
 @Entity
-@Table(name = "odontologo")
+@Table(name = "Odontologos")
 public class Odontologo {
+    @Column(name = "id")
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @OneToMany(mappedBy = "odontologo",cascade = CascadeType.ALL)
     @JsonIgnore
-    private List<Turno> listaTurno;
+    private Set<Turno> turno;
 
-    @Column
+    @Column(name = "matricula")
     private String matricula;
 
-    @Column
+    @Column(name = "apellido")
     private String apellido;
 
-    @Column
+    @Column(name = "nombre")
     private String nombre;
 
     public Long getId() {
@@ -57,5 +56,13 @@ public class Odontologo {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public Set<Turno> getTurno() {
+        return turno;
+    }
+
+    public void setTurno(Set<Turno> turno) {
+        this.turno = turno;
     }
 }

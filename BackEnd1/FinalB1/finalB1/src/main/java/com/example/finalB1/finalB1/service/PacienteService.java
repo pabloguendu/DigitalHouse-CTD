@@ -1,46 +1,62 @@
 package com.example.finalB1.finalB1.service;
 
+import com.example.finalB1.finalB1.dto.OdontologoDto;
+import com.example.finalB1.finalB1.dto.PacienteDto;
 import com.example.finalB1.finalB1.entity.Odontologo;
 import com.example.finalB1.finalB1.entity.Paciente;
-import com.example.finalB1.finalB1.repository.OdontologoRepository;
-import com.example.finalB1.finalB1.repository.PacienteRepository;
+import com.example.finalB1.finalB1.repository.IOdontologoRepository;
+import com.example.finalB1.finalB1.repository.IPacienteRepository;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 @Service
-public class PacienteService {
+public class PacienteService implements IPacienteService {
     @Autowired
-    private PacienteRepository pacienteRepository;
+    private IPacienteRepository pacienteRepository;
+    @Autowired
+    ObjectMapper mapper;
 
-    public List<Paciente> listaPacientes(){
-        return (List<Paciente>) pacienteRepository.findAll();
+    @Override
+    public void crearPaciente(PacienteDto pacienteDto) {
+        Paciente p=mapper.convertValue(pacienteDto,Paciente.class);
+        pacienteRepository.save(p);
+
     }
 
-    public Paciente agregar(Paciente p){
-        return pacienteRepository.save(p);
+    @Override
+    public Set<PacienteDto> getTodos() {
+        List<Paciente> listaPaciente= pacienteRepository.findAll();
+        Set<PacienteDto> pacienteDto= new HashSet<>();
+        for (Paciente p:listaPaciente){
+            pacienteDto.add(mapper.convertValue(p,PacienteDto.class));
+        }
+        return pacienteDto;
     }
 
-    public Optional<Paciente> buscar(Long id){
-        Optional<Paciente> paciente = pacienteRepository.findById(id);
-        return paciente;
+    @Override
+    public PacienteDto buscarPaciente(Long id) {
+        Optional<Paciente> p = pacienteRepository.findById(id);
+        PacienteDto pacienteDto =null;
+        if (p.isPresent()){
+            pacienteDto=mapper.convertValue(p,PacienteDto.class);
+        }
+        return pacienteDto;
     }
 
-    public void borrar (Long id){
+    @Override
+    public void eliminarPaciente(Long id) {
         pacienteRepository.deleteById(id);
     }
 
-    public Paciente update (Paciente p) {
-        Paciente paciente = pacienteRepository.getById(p.getId());
-        paciente.setNombre(p.getNombre());
-        paciente.setApellido(p.getApellido());
-        paciente.setDomicilio(p.getDomicilio());
-        paciente.setDni(p.getDni());
-        paciente.setFechaAlta(p.getFechaAlta());
-        return pacienteRepository.save(paciente);
-
+    @Override
+    public void modificarPaciente(PacienteDto pacienteDto) {
+        Paciente p=mapper.convertValue(pacienteDto,Paciente.class);
+        pacienteRepository.save(p);
     }
-
 }

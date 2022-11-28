@@ -1,9 +1,7 @@
 package com.example.finalB1.finalB1.controller;
 
-import com.example.finalB1.finalB1.entity.Odontologo;
 import com.example.finalB1.finalB1.entity.Paciente;
 import com.example.finalB1.finalB1.service.PacienteService;
-import com.example.finalB1.finalB1.service.ServiceOdontologo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
