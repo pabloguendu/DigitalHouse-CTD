@@ -5,7 +5,7 @@ import com.example.finalB1.finalB1.entity.Paciente;
 
 public class TurnoDto {
     private Long id;
-    private Integer hora;
+    private String hora;
     private String fecha;
     private Odontologo odontologo;
     private Paciente paciente;
@@ -18,11 +18,11 @@ public class TurnoDto {
         this.id = id;
     }
 
-    public Integer getHora() {
+    public String getHora() {
         return hora;
     }
 
-    public void setHora(Integer hora) {
+    public void setHora(String hora) {
         this.hora = hora;
     }
 
