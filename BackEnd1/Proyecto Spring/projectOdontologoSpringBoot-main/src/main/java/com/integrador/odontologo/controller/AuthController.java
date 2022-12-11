@@ -5,12 +5,12 @@ import com.integrador.odontologo.entities.Role;
 import com.integrador.odontologo.entities.User;
 import com.integrador.odontologo.repository.RoleRepository;
 import com.integrador.odontologo.repository.UserRepository;
-import com.integrador.odontologo.security.jwt.JwtUtils;
-import com.integrador.odontologo.security.payload.request.LoginRequest;
-import com.integrador.odontologo.security.payload.request.SignupRequest;
-import com.integrador.odontologo.security.payload.response.JwtResponse;
-import com.integrador.odontologo.security.payload.response.MessageResponse;
-import com.integrador.odontologo.security.services.UserDetailsImpl;
+import com.integrador.odontologo.exceptions.security.jwt.JwtUtils;
+import com.integrador.odontologo.exceptions.security.payload.request.LoginRequest;
+import com.integrador.odontologo.exceptions.security.payload.request.SignupRequest;
+import com.integrador.odontologo.exceptions.security.payload.response.JwtResponse;
+import com.integrador.odontologo.exceptions.security.payload.response.MessageResponse;
+import com.integrador.odontologo.exceptions.security.services.UserDetailsImpl;
 
 
 import java.util.HashSet;

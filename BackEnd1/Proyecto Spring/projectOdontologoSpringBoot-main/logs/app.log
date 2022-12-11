@@ -1,179 +1,172 @@
-2022-11-19T15:54:56Z - Starting OdontologoApplication using Java 19.0.1 on DESKTOP-C1KG8NM with PID 12172 (C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes started by pablo in C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main)
-2022-11-19T15:54:56Z - Running with Spring Boot v2.6.6, Spring v5.3.18
-2022-11-19T15:54:56Z - No active profile set, falling back to 1 default profile: "default"
-2022-11-19T15:54:56Z - Loading source class com.integrador.odontologo.OdontologoApplication
-2022-11-19T15:54:56Z - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ca951f
-2022-11-19T15:54:56Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-2022-11-19T15:54:56Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\AuthController.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\OdontologoController.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\PacienteController.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\TestController.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\TurnoController.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\RestExceptionHandler.class]
-2022-11-19T15:54:56Z - Ignored because not a concrete top-level class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\DomicilioRepository.class]
-2022-11-19T15:54:56Z - Ignored because not a concrete top-level class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\OdontologoRepository.class]
-2022-11-19T15:54:56Z - Ignored because not a concrete top-level class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\PacienteRepository.class]
-2022-11-19T15:54:56Z - Ignored because not a concrete top-level class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\RoleRepository.class]
-2022-11-19T15:54:56Z - Ignored because not a concrete top-level class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\TurnoRepository.class]
-2022-11-19T15:54:56Z - Ignored because not a concrete top-level class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\UserRepository.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\security\WebSecurityConfig.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\security\jwt\AuthEntryPointJwt.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\security\jwt\JwtUtils.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\security\services\UserDetailsServiceImpl.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\service\OdontologoService.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\service\PacienteService.class]
-2022-11-19T15:54:56Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\service\TurnoService.class]
-2022-11-19T15:54:57Z - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
-2022-11-19T15:54:57Z - @EnableAutoConfiguration was declared on a class in the package 'com.integrador.odontologo'. Automatic @Repository and @Entity scanning is enabled.
-2022-11-19T15:54:57Z - Scanning for JPA repositories in packages com.integrador.odontologo.
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\DomicilioRepository.class]
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\OdontologoRepository.class]
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\PacienteRepository.class]
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\RoleRepository.class]
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\TurnoRepository.class]
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\UserRepository.class]
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\security\services\UserDetailsImpl.class]
-2022-11-19T15:54:57Z - Identified candidate component class: file [C:\Users\pablo\Desktop\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\security\services\UserDetailsServiceImpl.class]
-2022-11-19T15:54:57Z - Finished Spring Data repository scanning in 88 ms. Found 6 JPA repository interfaces.
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'conversionServicePostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
-2022-11-19T15:54:57Z - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'metaDataSourceAdvisor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'methodSecurityMetadataSource'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'transactionAttributeSource'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'transactionInterceptor'
-2022-11-19T15:54:57Z - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
-2022-11-19T15:54:57Z - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
-2022-11-19T15:54:57Z - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'objectPostProcessor'
-2022-11-19T15:54:57Z - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
-2022-11-19T15:54:57Z - Autowiring by type from bean name 'objectPostProcessor' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@333dd51e'
-2022-11-19T15:54:58Z - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@76889e60]
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'errorPageCustomizer'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'dispatcherServletRegistration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'dispatcherServlet'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'multipartConfigElement'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
-2022-11-19T15:54:58Z - Code archive: C:\Users\pablo\.m2\repository\org\springframework\boot\spring-boot\2.6.6\spring-boot-2.6.6.jar
-2022-11-19T15:54:58Z - Code archive: C:\Users\pablo\.m2\repository\org\springframework\boot\spring-boot\2.6.6\spring-boot-2.6.6.jar
-2022-11-19T15:54:58Z - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2022-11-19T15:54:58Z - Tomcat initialized with port(s): 8095 (http)
-2022-11-19T15:54:58Z - Initializing ProtocolHandler ["http-nio-8095"]
-2022-11-19T15:54:58Z - Starting service [Tomcat]
-2022-11-19T15:54:58Z - Starting Servlet engine: [Apache Tomcat/9.0.60]
-2022-11-19T15:54:58Z - Initializing Spring embedded WebApplicationContext
-2022-11-19T15:54:58Z - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2022-11-19T15:54:58Z - Root WebApplicationContext: initialization completed in 2005 ms
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'errorPageSecurityInterceptor'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.ErrorPageSecurityFilterConfiguration'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'errorPageSecurityInterceptor' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ca951f'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'securityFilterChainRegistration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'securityFilterChainRegistration' via factory method to bean named 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'authenticationJwtTokenFilter'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'webSecurityConfig'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'enableGlobalAuthenticationAutowiredConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ca951f'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'initializeUserDetailsBeanManagerConfigurer'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'initializeUserDetailsBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ca951f'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'initializeAuthenticationProviderBeanManagerConfigurer'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'initializeAuthenticationProviderBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ca951f'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@333dd51e'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@333dd51e'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptorConfigurer'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
-2022-11-19T15:54:58Z - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'entityManagerFactory'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'dataSource'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
-2022-11-19T15:54:58Z - Driver class org.mariadb.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+2022-12-06T09:02:15Z - Starting OdontologoApplication using Java 18.0.2 on 106811-GUENDULP with PID 28904 (C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes started by pg6308 in C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main)
+2022-12-06T09:02:15Z - Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-12-06T09:02:15Z - No active profile set, falling back to 1 default profile: "default"
+2022-12-06T09:02:15Z - Loading source class com.integrador.odontologo.OdontologoApplication
+2022-12-06T09:02:15Z - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63611043
+2022-12-06T09:02:15Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-12-06T09:02:15Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\AuthController.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\OdontologoController.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\PacienteController.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\TestController.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\controller\TurnoController.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\RestExceptionHandler.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\security\WebSecurityConfig.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\security\jwt\AuthEntryPointJwt.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\security\jwt\JwtUtils.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\security\services\UserDetailsServiceImpl.class]
+2022-12-06T09:02:15Z - Ignored because not a concrete top-level class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\DomicilioRepository.class]
+2022-12-06T09:02:15Z - Ignored because not a concrete top-level class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\OdontologoRepository.class]
+2022-12-06T09:02:15Z - Ignored because not a concrete top-level class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\PacienteRepository.class]
+2022-12-06T09:02:15Z - Ignored because not a concrete top-level class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\RoleRepository.class]
+2022-12-06T09:02:15Z - Ignored because not a concrete top-level class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\TurnoRepository.class]
+2022-12-06T09:02:15Z - Ignored because not a concrete top-level class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\UserRepository.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\service\OdontologoService.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\service\PacienteService.class]
+2022-12-06T09:02:15Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\service\TurnoService.class]
+2022-12-06T09:02:16Z - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-12-06T09:02:16Z - @EnableAutoConfiguration was declared on a class in the package 'com.integrador.odontologo'. Automatic @Repository and @Entity scanning is enabled.
+2022-12-06T09:02:16Z - Scanning for JPA repositories in packages com.integrador.odontologo.
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\DomicilioRepository.class]
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\OdontologoRepository.class]
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\PacienteRepository.class]
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\RoleRepository.class]
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\TurnoRepository.class]
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\repository\UserRepository.class]
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\security\services\UserDetailsImpl.class]
+2022-12-06T09:02:16Z - Identified candidate component class: file [C:\Users\pg6308.CAJVAL\Desktop\DH\DigitalHouse-CTD\BackEnd1\Proyecto Spring\projectOdontologoSpringBoot-main\target\classes\com\integrador\odontologo\exceptions\security\services\UserDetailsServiceImpl.class]
+2022-12-06T09:02:16Z - Finished Spring Data repository scanning in 104 ms. Found 6 JPA repository interfaces.
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'conversionServicePostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'metaDataSourceAdvisor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'methodSecurityMetadataSource'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'transactionAttributeSource'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'transactionInterceptor'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'objectPostProcessor'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'objectPostProcessor' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2a5b3fee'
+2022-12-06T09:02:16Z - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@66420549]
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'errorPageCustomizer'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'dispatcherServlet'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'multipartConfigElement'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2022-12-06T09:02:16Z - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-12-06T09:02:16Z - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2022-12-06T09:02:17Z - Code archive: C:\Users\pg6308.CAJVAL\.m2\repository\org\springframework\boot\spring-boot\2.6.6\spring-boot-2.6.6.jar
+2022-12-06T09:02:17Z - Code archive: C:\Users\pg6308.CAJVAL\.m2\repository\org\springframework\boot\spring-boot\2.6.6\spring-boot-2.6.6.jar
+2022-12-06T09:02:17Z - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-12-06T09:02:17Z - Tomcat initialized with port(s): 8095 (http)
+2022-12-06T09:02:17Z - Initializing ProtocolHandler ["http-nio-8095"]
+2022-12-06T09:02:17Z - Starting service [Tomcat]
+2022-12-06T09:02:17Z - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-12-06T09:02:17Z - Initializing Spring embedded WebApplicationContext
+2022-12-06T09:02:17Z - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-12-06T09:02:17Z - Root WebApplicationContext: initialization completed in 2000 ms
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'errorPageSecurityInterceptor'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.ErrorPageSecurityFilterConfiguration'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'errorPageSecurityInterceptor' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63611043'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'securityFilterChainRegistration'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'securityFilterChainRegistration' via factory method to bean named 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'authenticationJwtTokenFilter'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'webSecurityConfig'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2a5b3fee'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2a5b3fee'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptorConfigurer'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
+2022-12-06T09:02:17Z - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'entityManagerFactory'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'dataSource'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+2022-12-06T09:02:17Z - Driver class org.mariadb.jdbc.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
   context: ROOT
   delegate: true
 ----------> Parent Classloader:
 jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886
 
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@333dd51e'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
-2022-11-19T15:54:58Z - Creating shared instance of singleton bean 'jpaVendorAdapter'
-2022-11-19T15:54:58Z - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
-2022-11-19T15:54:58Z - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
-2022-11-19T15:54:58Z - Building JPA container EntityManagerFactory for persistence unit 'default'
-2022-11-19T15:54:58Z - PersistenceUnitInfo [
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@2a5b3fee'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+2022-12-06T09:02:17Z - Creating shared instance of singleton bean 'jpaVendorAdapter'
+2022-12-06T09:02:17Z - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+2022-12-06T09:02:17Z - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+2022-12-06T09:02:17Z - Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-12-06T09:02:17Z - PersistenceUnitInfo [
 	name: default
 	persistence provider classname: null
 	classloader: TomcatEmbeddedWebappClassLoader
@@ -186,7 +179,7 @@ jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886
 	JTA datasource: null
 	Non JTA datasource: HikariDataSource (null)
 	Transaction type: RESOURCE_LOCAL
-	PU root URL: file:/C:/Users/pablo/Desktop/Proyecto%20Spring/projectOdontologoSpringBoot-main/target/classes/
+	PU root URL: file:/C:/Users/pg6308.CAJVAL/Desktop/DH/DigitalHouse-CTD/BackEnd1/Proyecto%20Spring/projectOdontologoSpringBoot-main/target/classes/
 	Shared Cache Mode: UNSPECIFIED
 	Validation Mode: AUTO
 	Jar files URLs []
@@ -199,187 +192,187 @@ jdk.internal.loader.ClassLoaders$AppClassLoader@4d7e1886
 		com.integrador.odontologo.entities.User]
 	Mapping files names []
 	Properties []
-2022-11-19T15:54:58Z - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
-2022-11-19T15:54:58Z - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
-2022-11-19T15:54:58Z - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
-2022-11-19T15:54:58Z - HHH000412: Hibernate ORM core version 5.6.7.Final
-2022-11-19T15:54:58Z - HHH000206: hibernate.properties not found
-2022-11-19T15:54:58Z - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
-2022-11-19T15:54:58Z - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
-2022-11-19T15:54:58Z - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
-2022-11-19T15:54:58Z - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-11-19T15:54:59Z - Adding type registration boolean -> org.hibernate.type.BooleanType@5c48b72c
-2022-11-19T15:54:59Z - Adding type registration boolean -> org.hibernate.type.BooleanType@5c48b72c
-2022-11-19T15:54:59Z - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5c48b72c
-2022-11-19T15:54:59Z - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7ce29a2d
-2022-11-19T15:54:59Z - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5fffb692
-2022-11-19T15:54:59Z - Adding type registration yes_no -> org.hibernate.type.YesNoType@126f8f24
-2022-11-19T15:54:59Z - Adding type registration byte -> org.hibernate.type.ByteType@6282b9f5
-2022-11-19T15:54:59Z - Adding type registration byte -> org.hibernate.type.ByteType@6282b9f5
-2022-11-19T15:54:59Z - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6282b9f5
-2022-11-19T15:54:59Z - Adding type registration character -> org.hibernate.type.CharacterType@31f77791
-2022-11-19T15:54:59Z - Adding type registration char -> org.hibernate.type.CharacterType@31f77791
-2022-11-19T15:54:59Z - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@31f77791
-2022-11-19T15:54:59Z - Adding type registration short -> org.hibernate.type.ShortType@42297bdf
-2022-11-19T15:54:59Z - Adding type registration short -> org.hibernate.type.ShortType@42297bdf
-2022-11-19T15:54:59Z - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@42297bdf
-2022-11-19T15:54:59Z - Adding type registration integer -> org.hibernate.type.IntegerType@17222c11
-2022-11-19T15:54:59Z - Adding type registration int -> org.hibernate.type.IntegerType@17222c11
-2022-11-19T15:54:59Z - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@17222c11
-2022-11-19T15:54:59Z - Adding type registration long -> org.hibernate.type.LongType@11b5f4e2
-2022-11-19T15:54:59Z - Adding type registration long -> org.hibernate.type.LongType@11b5f4e2
-2022-11-19T15:54:59Z - Adding type registration java.lang.Long -> org.hibernate.type.LongType@11b5f4e2
-2022-11-19T15:54:59Z - Adding type registration float -> org.hibernate.type.FloatType@739831a4
-2022-11-19T15:54:59Z - Adding type registration float -> org.hibernate.type.FloatType@739831a4
-2022-11-19T15:54:59Z - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@739831a4
-2022-11-19T15:54:59Z - Adding type registration double -> org.hibernate.type.DoubleType@7fe8c7db
-2022-11-19T15:54:59Z - Adding type registration double -> org.hibernate.type.DoubleType@7fe8c7db
-2022-11-19T15:54:59Z - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7fe8c7db
-2022-11-19T15:54:59Z - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@19ae2ee5
-2022-11-19T15:54:59Z - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@19ae2ee5
-2022-11-19T15:54:59Z - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@118acf70
-2022-11-19T15:54:59Z - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@118acf70
-2022-11-19T15:54:59Z - Adding type registration string -> org.hibernate.type.StringType@e91af20
-2022-11-19T15:54:59Z - Adding type registration java.lang.String -> org.hibernate.type.StringType@e91af20
-2022-11-19T15:54:59Z - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2f95653f
-2022-11-19T15:54:59Z - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@646427f7
-2022-11-19T15:54:59Z - Adding type registration url -> org.hibernate.type.UrlType@423ed3b5
-2022-11-19T15:54:59Z - Adding type registration java.net.URL -> org.hibernate.type.UrlType@423ed3b5
-2022-11-19T15:54:59Z - Adding type registration Duration -> org.hibernate.type.DurationType@37af24cb
-2022-11-19T15:54:59Z - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@37af24cb
-2022-11-19T15:54:59Z - Adding type registration Instant -> org.hibernate.type.InstantType@7742a45c
-2022-11-19T15:54:59Z - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@7742a45c
-2022-11-19T15:54:59Z - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@619c93ca
-2022-11-19T15:54:59Z - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@619c93ca
-2022-11-19T15:54:59Z - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@1129829c
-2022-11-19T15:54:59Z - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@1129829c
-2022-11-19T15:54:59Z - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6839203b
-2022-11-19T15:54:59Z - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6839203b
-2022-11-19T15:54:59Z - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@43935e9c
-2022-11-19T15:54:59Z - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@43935e9c
-2022-11-19T15:54:59Z - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@26d5a317
-2022-11-19T15:54:59Z - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@26d5a317
-2022-11-19T15:54:59Z - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@89caf47
-2022-11-19T15:54:59Z - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@89caf47
-2022-11-19T15:54:59Z - Adding type registration date -> org.hibernate.type.DateType@7c1503a3
-2022-11-19T15:54:59Z - Adding type registration java.sql.Date -> org.hibernate.type.DateType@7c1503a3
-2022-11-19T15:54:59Z - Adding type registration time -> org.hibernate.type.TimeType@b5ac0c1
-2022-11-19T15:54:59Z - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@b5ac0c1
-2022-11-19T15:54:59Z - Adding type registration timestamp -> org.hibernate.type.TimestampType@47a4eee2
-2022-11-19T15:54:59Z - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@47a4eee2
-2022-11-19T15:54:59Z - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@47a4eee2
-2022-11-19T15:54:59Z - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@50211483
-2022-11-19T15:54:59Z - Adding type registration calendar -> org.hibernate.type.CalendarType@7436364d
-2022-11-19T15:54:59Z - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7436364d
-2022-11-19T15:54:59Z - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7436364d
-2022-11-19T15:54:59Z - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@39ab5ef7
-2022-11-19T15:54:59Z - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@30a9e3db
-2022-11-19T15:54:59Z - Adding type registration locale -> org.hibernate.type.LocaleType@474749b8
-2022-11-19T15:54:59Z - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@474749b8
-2022-11-19T15:54:59Z - Adding type registration currency -> org.hibernate.type.CurrencyType@19f02280
-2022-11-19T15:54:59Z - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@19f02280
-2022-11-19T15:54:59Z - Adding type registration timezone -> org.hibernate.type.TimeZoneType@450f0235
-2022-11-19T15:54:59Z - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@450f0235
-2022-11-19T15:54:59Z - Adding type registration class -> org.hibernate.type.ClassType@217dc48e
-2022-11-19T15:54:59Z - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@217dc48e
-2022-11-19T15:54:59Z - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@632383b9
-2022-11-19T15:54:59Z - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@632383b9
-2022-11-19T15:54:59Z - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7d1c164a
-2022-11-19T15:54:59Z - Adding type registration binary -> org.hibernate.type.BinaryType@685f5d0d
-2022-11-19T15:54:59Z - Adding type registration byte[] -> org.hibernate.type.BinaryType@685f5d0d
-2022-11-19T15:54:59Z - Adding type registration [B -> org.hibernate.type.BinaryType@685f5d0d
-2022-11-19T15:54:59Z - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5d9618f2
-2022-11-19T15:54:59Z - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5d9618f2
-2022-11-19T15:54:59Z - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5d9618f2
-2022-11-19T15:54:59Z - Adding type registration row_version -> org.hibernate.type.RowVersionType@525647f3
-2022-11-19T15:54:59Z - Adding type registration image -> org.hibernate.type.ImageType@491f8831
-2022-11-19T15:54:59Z - Adding type registration characters -> org.hibernate.type.CharArrayType@11df2829
-2022-11-19T15:54:59Z - Adding type registration char[] -> org.hibernate.type.CharArrayType@11df2829
-2022-11-19T15:54:59Z - Adding type registration [C -> org.hibernate.type.CharArrayType@11df2829
-2022-11-19T15:54:59Z - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4ed18798
-2022-11-19T15:54:59Z - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4ed18798
-2022-11-19T15:54:59Z - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4ed18798
-2022-11-19T15:54:59Z - Adding type registration text -> org.hibernate.type.TextType@1e1e837d
-2022-11-19T15:54:59Z - Adding type registration ntext -> org.hibernate.type.NTextType@626b639e
-2022-11-19T15:54:59Z - Adding type registration blob -> org.hibernate.type.BlobType@6f85ee02
-2022-11-19T15:54:59Z - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6f85ee02
-2022-11-19T15:54:59Z - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7b14c61
-2022-11-19T15:54:59Z - Adding type registration clob -> org.hibernate.type.ClobType@33d7765a
-2022-11-19T15:54:59Z - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@33d7765a
-2022-11-19T15:54:59Z - Adding type registration nclob -> org.hibernate.type.NClobType@7d3691e1
-2022-11-19T15:54:59Z - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@7d3691e1
-2022-11-19T15:54:59Z - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7558c24b
-2022-11-19T15:54:59Z - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@57151b3a
-2022-11-19T15:54:59Z - Adding type registration serializable -> org.hibernate.type.SerializableType@53a50b0a
-2022-11-19T15:54:59Z - Adding type registration object -> org.hibernate.type.ObjectType@22d477c2
-2022-11-19T15:54:59Z - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@22d477c2
-2022-11-19T15:54:59Z - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@39832280
-2022-11-19T15:54:59Z - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4966bab1
-2022-11-19T15:54:59Z - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7f0f84d4
-2022-11-19T15:54:59Z - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6df4af5
-2022-11-19T15:54:59Z - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@26e8ff8c
-2022-11-19T15:54:59Z - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5aa76ad2
-2022-11-19T15:54:59Z - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@590d6c76
-2022-11-19T15:54:59Z - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@25791d40
-2022-11-19T15:54:59Z - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4b9dbf07] into BootstrapContext; was [null]
-2022-11-19T15:54:59Z - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4b9dbf07) [was null]
-2022-11-19T15:54:59Z - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@b5aa65b] into BootstrapContext; was [null]
-2022-11-19T15:54:59Z - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@76cdafa3] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@6b27b2d0]
-2022-11-19T15:54:59Z - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4b9dbf07]
-2022-11-19T15:54:59Z - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4b9dbf07]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
-2022-11-19T15:54:59Z - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
-2022-11-19T15:54:59Z - HikariPool-1 - configuration:
-2022-11-19T15:54:59Z - allowPoolSuspension................................false
-2022-11-19T15:54:59Z - autoCommit................................true
-2022-11-19T15:54:59Z - catalog................................none
-2022-11-19T15:54:59Z - connectionInitSql................................none
-2022-11-19T15:54:59Z - connectionTestQuery................................none
-2022-11-19T15:54:59Z - connectionTimeout................................30000
-2022-11-19T15:54:59Z - dataSource................................none
-2022-11-19T15:54:59Z - dataSourceClassName................................none
-2022-11-19T15:54:59Z - dataSourceJNDI................................none
-2022-11-19T15:54:59Z - dataSourceProperties................................{password=<masked>}
-2022-11-19T15:54:59Z - driverClassName................................"org.mariadb.jdbc.Driver"
-2022-11-19T15:54:59Z - exceptionOverrideClassName................................none
-2022-11-19T15:54:59Z - healthCheckProperties................................{}
-2022-11-19T15:54:59Z - healthCheckRegistry................................none
-2022-11-19T15:54:59Z - idleTimeout................................600000
-2022-11-19T15:54:59Z - initializationFailTimeout................................1
-2022-11-19T15:54:59Z - isolateInternalQueries................................false
-2022-11-19T15:54:59Z - jdbcUrl................................jdbc:mariadb://localhost:3306/odontologos
-2022-11-19T15:54:59Z - keepaliveTime................................0
-2022-11-19T15:54:59Z - leakDetectionThreshold................................0
-2022-11-19T15:54:59Z - maxLifetime................................1800000
-2022-11-19T15:54:59Z - maximumPoolSize................................10
-2022-11-19T15:54:59Z - metricRegistry................................none
-2022-11-19T15:54:59Z - metricsTrackerFactory................................none
-2022-11-19T15:54:59Z - minimumIdle................................10
-2022-11-19T15:54:59Z - password................................<masked>
-2022-11-19T15:54:59Z - poolName................................"HikariPool-1"
-2022-11-19T15:54:59Z - readOnly................................false
-2022-11-19T15:54:59Z - registerMbeans................................false
-2022-11-19T15:54:59Z - scheduledExecutor................................none
-2022-11-19T15:54:59Z - schema................................none
-2022-11-19T15:54:59Z - threadFactory................................internal
-2022-11-19T15:54:59Z - transactionIsolation................................default
-2022-11-19T15:54:59Z - username................................"root"
-2022-11-19T15:54:59Z - validationTimeout................................5000
-2022-11-19T15:54:59Z - HikariPool-1 - Starting...
-2022-11-19T15:54:59Z - HikariPool-1 - Failed to create/setup connection: Socket fail to connect to host:address=(host=localhost)(port=3306)(type=primary). Connection refused: no further information
-2022-11-19T15:54:59Z - HikariPool-1 - Cannot acquire connection from data source
+2022-12-06T09:02:17Z - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2022-12-06T09:02:17Z - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2022-12-06T09:02:17Z - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2022-12-06T09:02:17Z - HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-12-06T09:02:17Z - HHH000206: hibernate.properties not found
+2022-12-06T09:02:17Z - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2022-12-06T09:02:17Z - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2022-12-06T09:02:17Z - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2022-12-06T09:02:17Z - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06T09:02:18Z - Adding type registration boolean -> org.hibernate.type.BooleanType@35cec305
+2022-12-06T09:02:18Z - Adding type registration boolean -> org.hibernate.type.BooleanType@35cec305
+2022-12-06T09:02:18Z - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@35cec305
+2022-12-06T09:02:18Z - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4fa86cb8
+2022-12-06T09:02:18Z - Adding type registration true_false -> org.hibernate.type.TrueFalseType@12952aff
+2022-12-06T09:02:18Z - Adding type registration yes_no -> org.hibernate.type.YesNoType@446e7065
+2022-12-06T09:02:18Z - Adding type registration byte -> org.hibernate.type.ByteType@73608eb0
+2022-12-06T09:02:18Z - Adding type registration byte -> org.hibernate.type.ByteType@73608eb0
+2022-12-06T09:02:18Z - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@73608eb0
+2022-12-06T09:02:18Z - Adding type registration character -> org.hibernate.type.CharacterType@24876a7e
+2022-12-06T09:02:18Z - Adding type registration char -> org.hibernate.type.CharacterType@24876a7e
+2022-12-06T09:02:18Z - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@24876a7e
+2022-12-06T09:02:18Z - Adding type registration short -> org.hibernate.type.ShortType@7fd4e815
+2022-12-06T09:02:18Z - Adding type registration short -> org.hibernate.type.ShortType@7fd4e815
+2022-12-06T09:02:18Z - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7fd4e815
+2022-12-06T09:02:18Z - Adding type registration integer -> org.hibernate.type.IntegerType@6e1ae763
+2022-12-06T09:02:18Z - Adding type registration int -> org.hibernate.type.IntegerType@6e1ae763
+2022-12-06T09:02:18Z - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6e1ae763
+2022-12-06T09:02:18Z - Adding type registration long -> org.hibernate.type.LongType@5fffb692
+2022-12-06T09:02:18Z - Adding type registration long -> org.hibernate.type.LongType@5fffb692
+2022-12-06T09:02:18Z - Adding type registration java.lang.Long -> org.hibernate.type.LongType@5fffb692
+2022-12-06T09:02:18Z - Adding type registration float -> org.hibernate.type.FloatType@7fbf26fc
+2022-12-06T09:02:18Z - Adding type registration float -> org.hibernate.type.FloatType@7fbf26fc
+2022-12-06T09:02:18Z - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7fbf26fc
+2022-12-06T09:02:18Z - Adding type registration double -> org.hibernate.type.DoubleType@7c11d32
+2022-12-06T09:02:18Z - Adding type registration double -> org.hibernate.type.DoubleType@7c11d32
+2022-12-06T09:02:18Z - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7c11d32
+2022-12-06T09:02:18Z - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@548e43b1
+2022-12-06T09:02:18Z - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@548e43b1
+2022-12-06T09:02:18Z - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5bb911c1
+2022-12-06T09:02:18Z - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5bb911c1
+2022-12-06T09:02:18Z - Adding type registration string -> org.hibernate.type.StringType@25974207
+2022-12-06T09:02:18Z - Adding type registration java.lang.String -> org.hibernate.type.StringType@25974207
+2022-12-06T09:02:18Z - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@21a46ff1
+2022-12-06T09:02:18Z - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@58feb6b0
+2022-12-06T09:02:18Z - Adding type registration url -> org.hibernate.type.UrlType@14c99bf6
+2022-12-06T09:02:18Z - Adding type registration java.net.URL -> org.hibernate.type.UrlType@14c99bf6
+2022-12-06T09:02:18Z - Adding type registration Duration -> org.hibernate.type.DurationType@445bce9a
+2022-12-06T09:02:18Z - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@445bce9a
+2022-12-06T09:02:18Z - Adding type registration Instant -> org.hibernate.type.InstantType@6ffd4c0d
+2022-12-06T09:02:18Z - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@6ffd4c0d
+2022-12-06T09:02:18Z - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@f723cdb
+2022-12-06T09:02:18Z - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@f723cdb
+2022-12-06T09:02:18Z - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2cfe272f
+2022-12-06T09:02:18Z - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2cfe272f
+2022-12-06T09:02:18Z - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@380ce5a3
+2022-12-06T09:02:18Z - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@380ce5a3
+2022-12-06T09:02:18Z - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3c88191b
+2022-12-06T09:02:18Z - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@3c88191b
+2022-12-06T09:02:18Z - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5bc63e20
+2022-12-06T09:02:18Z - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5bc63e20
+2022-12-06T09:02:18Z - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@14fc9bd
+2022-12-06T09:02:18Z - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@14fc9bd
+2022-12-06T09:02:18Z - Adding type registration date -> org.hibernate.type.DateType@21390938
+2022-12-06T09:02:18Z - Adding type registration java.sql.Date -> org.hibernate.type.DateType@21390938
+2022-12-06T09:02:18Z - Adding type registration time -> org.hibernate.type.TimeType@6839203b
+2022-12-06T09:02:18Z - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@6839203b
+2022-12-06T09:02:18Z - Adding type registration timestamp -> org.hibernate.type.TimestampType@101cf747
+2022-12-06T09:02:18Z - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@101cf747
+2022-12-06T09:02:18Z - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@101cf747
+2022-12-06T09:02:18Z - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4a6c0f38
+2022-12-06T09:02:18Z - Adding type registration calendar -> org.hibernate.type.CalendarType@a90e2c1
+2022-12-06T09:02:18Z - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@a90e2c1
+2022-12-06T09:02:18Z - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@a90e2c1
+2022-12-06T09:02:18Z - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4b87760e
+2022-12-06T09:02:18Z - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@7c1503a3
+2022-12-06T09:02:18Z - Adding type registration locale -> org.hibernate.type.LocaleType@6070775e
+2022-12-06T09:02:18Z - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6070775e
+2022-12-06T09:02:18Z - Adding type registration currency -> org.hibernate.type.CurrencyType@168142da
+2022-12-06T09:02:18Z - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@168142da
+2022-12-06T09:02:18Z - Adding type registration timezone -> org.hibernate.type.TimeZoneType@51ff3c4b
+2022-12-06T09:02:18Z - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@51ff3c4b
+2022-12-06T09:02:18Z - Adding type registration class -> org.hibernate.type.ClassType@7436364d
+2022-12-06T09:02:18Z - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7436364d
+2022-12-06T09:02:18Z - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@77cca767
+2022-12-06T09:02:18Z - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@77cca767
+2022-12-06T09:02:18Z - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@31a136a6
+2022-12-06T09:02:18Z - Adding type registration binary -> org.hibernate.type.BinaryType@474749b8
+2022-12-06T09:02:18Z - Adding type registration byte[] -> org.hibernate.type.BinaryType@474749b8
+2022-12-06T09:02:18Z - Adding type registration [B -> org.hibernate.type.BinaryType@474749b8
+2022-12-06T09:02:18Z - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@19f02280
+2022-12-06T09:02:18Z - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@19f02280
+2022-12-06T09:02:18Z - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@19f02280
+2022-12-06T09:02:18Z - Adding type registration row_version -> org.hibernate.type.RowVersionType@450f0235
+2022-12-06T09:02:18Z - Adding type registration image -> org.hibernate.type.ImageType@fbe70d8
+2022-12-06T09:02:18Z - Adding type registration characters -> org.hibernate.type.CharArrayType@7aea704c
+2022-12-06T09:02:18Z - Adding type registration char[] -> org.hibernate.type.CharArrayType@7aea704c
+2022-12-06T09:02:18Z - Adding type registration [C -> org.hibernate.type.CharArrayType@7aea704c
+2022-12-06T09:02:18Z - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7d1c164a
+2022-12-06T09:02:18Z - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7d1c164a
+2022-12-06T09:02:18Z - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7d1c164a
+2022-12-06T09:02:18Z - Adding type registration text -> org.hibernate.type.TextType@1e00bfe2
+2022-12-06T09:02:18Z - Adding type registration ntext -> org.hibernate.type.NTextType@685f5d0d
+2022-12-06T09:02:18Z - Adding type registration blob -> org.hibernate.type.BlobType@58687fb7
+2022-12-06T09:02:18Z - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@58687fb7
+2022-12-06T09:02:18Z - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@525647f3
+2022-12-06T09:02:18Z - Adding type registration clob -> org.hibernate.type.ClobType@77524ca7
+2022-12-06T09:02:18Z - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@77524ca7
+2022-12-06T09:02:18Z - Adding type registration nclob -> org.hibernate.type.NClobType@5b29ab61
+2022-12-06T09:02:18Z - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5b29ab61
+2022-12-06T09:02:18Z - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5d71b500
+2022-12-06T09:02:18Z - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@527a8665
+2022-12-06T09:02:18Z - Adding type registration serializable -> org.hibernate.type.SerializableType@6c075e9d
+2022-12-06T09:02:18Z - Adding type registration object -> org.hibernate.type.ObjectType@40d848f9
+2022-12-06T09:02:18Z - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@40d848f9
+2022-12-06T09:02:18Z - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@44bc2449
+2022-12-06T09:02:18Z - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3c28e5b6
+2022-12-06T09:02:18Z - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@7558c24b
+2022-12-06T09:02:18Z - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3a296107
+2022-12-06T09:02:18Z - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1f129467
+2022-12-06T09:02:18Z - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@646cd766
+2022-12-06T09:02:18Z - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@57151b3a
+2022-12-06T09:02:18Z - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@26457986
+2022-12-06T09:02:18Z - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@26c8b296] into BootstrapContext; was [null]
+2022-12-06T09:02:18Z - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@26c8b296) [was null]
+2022-12-06T09:02:18Z - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@45801322] into BootstrapContext; was [null]
+2022-12-06T09:02:18Z - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@756b2d90] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@3520958b]
+2022-12-06T09:02:18Z - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@26c8b296]
+2022-12-06T09:02:18Z - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@26c8b296]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-12-06T09:02:18Z - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2022-12-06T09:02:18Z - HikariPool-1 - configuration:
+2022-12-06T09:02:18Z - allowPoolSuspension................................false
+2022-12-06T09:02:18Z - autoCommit................................true
+2022-12-06T09:02:18Z - catalog................................none
+2022-12-06T09:02:18Z - connectionInitSql................................none
+2022-12-06T09:02:18Z - connectionTestQuery................................none
+2022-12-06T09:02:18Z - connectionTimeout................................30000
+2022-12-06T09:02:18Z - dataSource................................none
+2022-12-06T09:02:18Z - dataSourceClassName................................none
+2022-12-06T09:02:18Z - dataSourceJNDI................................none
+2022-12-06T09:02:18Z - dataSourceProperties................................{password=<masked>}
+2022-12-06T09:02:18Z - driverClassName................................"org.mariadb.jdbc.Driver"
+2022-12-06T09:02:18Z - exceptionOverrideClassName................................none
+2022-12-06T09:02:18Z - healthCheckProperties................................{}
+2022-12-06T09:02:18Z - healthCheckRegistry................................none
+2022-12-06T09:02:18Z - idleTimeout................................600000
+2022-12-06T09:02:18Z - initializationFailTimeout................................1
+2022-12-06T09:02:18Z - isolateInternalQueries................................false
+2022-12-06T09:02:18Z - jdbcUrl................................jdbc:mariadb://localhost:3306/odontologos
+2022-12-06T09:02:18Z - keepaliveTime................................0
+2022-12-06T09:02:18Z - leakDetectionThreshold................................0
+2022-12-06T09:02:18Z - maxLifetime................................1800000
+2022-12-06T09:02:18Z - maximumPoolSize................................10
+2022-12-06T09:02:18Z - metricRegistry................................none
+2022-12-06T09:02:18Z - metricsTrackerFactory................................none
+2022-12-06T09:02:18Z - minimumIdle................................10
+2022-12-06T09:02:18Z - password................................<masked>
+2022-12-06T09:02:18Z - poolName................................"HikariPool-1"
+2022-12-06T09:02:18Z - readOnly................................false
+2022-12-06T09:02:18Z - registerMbeans................................false
+2022-12-06T09:02:18Z - scheduledExecutor................................none
+2022-12-06T09:02:18Z - schema................................none
+2022-12-06T09:02:18Z - threadFactory................................internal
+2022-12-06T09:02:18Z - transactionIsolation................................default
+2022-12-06T09:02:18Z - username................................"root"
+2022-12-06T09:02:18Z - validationTimeout................................5000
+2022-12-06T09:02:18Z - HikariPool-1 - Starting...
+2022-12-06T09:02:18Z - HikariPool-1 - Failed to create/setup connection: Socket fail to connect to host:address=(host=localhost)(port=3306)(type=primary). Connection refused: no further information
+2022-12-06T09:02:18Z - HikariPool-1 - Cannot acquire connection from data source
 java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:address=(host=localhost)(port=3306)(type=primary). Connection refused: no further information
 	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:136)
 	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:103)
@@ -512,7 +505,7 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
@@ -520,7 +513,7 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
@@ -548,13 +541,13 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 Caused by: java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:666)
+	at java.base/java.net.Socket.connect(Socket.java:633)
 	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:130)
 	... 163 common frames omitted
-2022-11-19T15:55:00Z - HikariPool-1 - Exception during pool initialization.
+2022-12-06T09:02:19Z - HikariPool-1 - Exception during pool initialization.
 java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:address=(host=localhost)(port=3306)(type=primary). Connection refused: no further information
 	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:136)
 	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:103)
@@ -687,7 +680,7 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
@@ -695,7 +688,7 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
@@ -723,13 +716,13 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 Caused by: java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:666)
+	at java.base/java.net.Socket.connect(Socket.java:633)
 	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:130)
 	... 163 common frames omitted
-2022-11-19T15:55:00Z - HHH000342: Could not obtain connection to query metadata
+2022-12-06T09:02:19Z - HHH000342: Could not obtain connection to query metadata
 java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:address=(host=localhost)(port=3306)(type=primary). Connection refused: no further information
 	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:136)
 	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:103)
@@ -862,7 +855,7 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
@@ -870,7 +863,7 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
@@ -898,18 +891,18 @@ java.sql.SQLNonTransientConnectionException: Socket fail to connect to host:addr
 Caused by: java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:535)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:585)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:666)
+	at java.base/java.net.Socket.connect(Socket.java:633)
 	at org.mariadb.jdbc.client.impl.ConnectionHelper.connectSocket(ConnectionHelper.java:130)
 	... 163 common frames omitted
-2022-11-19T15:55:00Z - Overriding existing service binding [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
-2022-11-19T15:55:00Z - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2022-11-19T15:55:00Z - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'webSecurityConfig': Unsatisfied dependency expressed through method 'setContentNegotationStrategy' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2022-11-19T15:55:00Z - Stopping service [Tomcat]
-2022-11-19T15:55:00Z - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-2022-11-19T15:55:00Z - 
+2022-12-06T09:02:19Z - Overriding existing service binding [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+2022-12-06T09:02:19Z - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-12-06T09:02:19Z - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'webSecurityConfig': Unsatisfied dependency expressed through method 'setContentNegotationStrategy' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-12-06T09:02:19Z - Stopping service [Tomcat]
+2022-12-06T09:02:19Z - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-12-06T09:02:19Z - 
 
 
 ============================
@@ -1923,7 +1916,7 @@ Unconditional classes:
 
 
 
-2022-11-19T15:55:00Z - Application run failed
+2022-12-06T09:02:19Z - Application run failed
 org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
@@ -1975,7 +1968,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
@@ -1983,7 +1976,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
 	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
 	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)

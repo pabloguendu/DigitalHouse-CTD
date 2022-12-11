@@ -1,28 +1,28 @@
 package com.example.finalB1.finalB1.controller;
 import com.example.finalB1.finalB1.dto.OdontologoDto;
 import com.example.finalB1.finalB1.entity.Odontologo;
+import com.example.finalB1.finalB1.service.IOdontologoService;
 import com.example.finalB1.finalB1.service.OdontologoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/odontologos")
 public class OdontologoController {
 
     @Autowired
-    private OdontologoService odontologoService;
+    private IOdontologoService odontologoService;
 
     @GetMapping
-    public Set<OdontologoDto> odontologoList() {
+    public List<OdontologoDto> odontologolist() {
         return odontologoService.getTodos();
     }
 
@@ -31,24 +31,26 @@ public class OdontologoController {
         odontologoService.crearOdontologo(odontologoDto);
         return ResponseEntity.ok(HttpStatus.OK);
     }
-    public OdontologoDto search(Long id){
-        return odontologoService.buscarOdontologo(id);
 
+
+    @GetMapping("/{id}")
+    public OdontologoDto search(@PathVariable Long id) {
+        return odontologoService.buscarOdontologo(id);
     }
-    @DeleteMapping("{id}")
-    public void delete(@PathVariable("id") Long id){
-        odontologoService.eliminarOdontologo(id);
-    }
-    @PutMapping
-    public ResponseEntity<?> updateOdontologo(@RequestBody OdontologoDto o){
-        odontologoService.modificarOdontologo(o);
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @PutMapping()
+    public ResponseEntity<?> update(@RequestBody OdontologoDto odontologoDto) {
+        odontologoService.modificarOdontologo(odontologoDto);
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
-
-
-
-
-
-
+    @CrossOrigin(origins = "http://localhost:4200")
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> delete(@PathVariable Long id){
+        odontologoService.eliminarOdontologo(id);
+        return ResponseEntity.ok(HttpStatus.OK);
+    }
 }
+
+

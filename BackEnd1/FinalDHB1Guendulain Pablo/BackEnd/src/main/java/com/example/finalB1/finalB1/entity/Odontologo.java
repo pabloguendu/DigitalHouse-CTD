@@ -13,7 +13,7 @@ public class Odontologo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToMany(mappedBy = "odontologo",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "odontologo")
     @JsonIgnore
     private Set<Turno> turno;
 
@@ -25,9 +25,6 @@ public class Odontologo {
 
     @Column(name = "nombre")
     private String nombre;
-
-    public Odontologo() {
-    }
 
     public Long getId() {
         return id;

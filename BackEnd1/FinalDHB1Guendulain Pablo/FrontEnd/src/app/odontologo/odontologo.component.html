@@ -1,0 +1,59 @@
+
+
+<div class="container">
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+
+        <h1 class="display-5 fw-bold">Listado de odontólogos</h1>
+        
+        <table class="table table-primary">
+            <thead>
+              <tr>
+                <th colspan="2">Id</th>
+                <th colspan="2">Nombre</th>
+                <th colspan="2">Apellido</th>
+                <th colspan="2">Matricula</th>
+                <th colspan="2">Eliminar</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let odontologo of odontologos$ | async" (click)="seleccionarOdontologo(odontologo)">
+                    <td>{{odontologo.id}}<td>
+                    <td>{{odontologo.nombre}}<td>
+                    <td>{{odontologo.apellido}}<td>
+                    <td>{{odontologo.matricula}}<td>
+                    <td><button class="btn btn-danger" (click)="eliminarOdontologo(odontologo.id)">Eliminar odontologo</button><td>
+                </tr>
+
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+        <h1 class="display-5 fw-bold">Agregar un odontólogo</h1>
+            <div class="form-goup">
+                <input type="text" class="form-control mt-3" placeholder="Nombre" [(ngModel)] ="nombre">
+                <input type="text" class="form-control mt-3" placeholder="Apellido" [(ngModel)] ="apellido"/>
+                <input type="text" class="form-control mt-3" placeholder="Matrícula" [(ngModel)] ="matricula"/>
+            </div>
+
+            <button class="btn btn-success mt-3" (click)="crearOdontologo()">Agregar odontólogo</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+            <h1 class="display-5 fw-bold">Modificar odontólogo</h1>
+            <div class="form-goup">
+                <input type="text" class="form-control mt-3" placeholder="Nombre"  [(ngModel)] ="nombreMod">
+                <input type="text" class="form-control mt-3" placeholder="Apellido" [(ngModel)] ="apellidoMod"/>
+                <input type="text" class="form-control mt-3" placeholder="Matrícula" [(ngModel)] ="matriculaMod"/>
+            </div>
+            <button class="btn btn-warning mt-3" (click)="modifyOdontologo()">Modificar odontólogo</button>
+        </div>
+      </div>
+    </div>
+</div>
+

@@ -1,37 +1,39 @@
-package com.example.finalB1.finalB1.entity;
+package com.example.finalB1.finalB1.dto;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.*;
-
-import javax.persistence.*;
+import javax.persistence.Column;
 import java.sql.Date;
-import java.util.Set;
 
-
-@Entity
-@NoArgsConstructor
-@Table(name = "Pacientes")
-public class Paciente {
-    @Column(name = "id")
-    @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+public class PacienteDto {
     private Long id;
-
     private String nombre;
+
+    @Override
+    public String toString() {
+        return "PacienteDto{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", domicilio='" + domicilio + '\'' +
+                ", dni='" + dni + '\'' +
+                ", fechaAlta='" + fechaAlta + '\'' +
+                '}';
+    }
+
+    public PacienteDto(String nombre, String apellido, String domicilio, String dni, String fechaAlta) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.domicilio = domicilio;
+        this.dni = dni;
+        this.fechaAlta = fechaAlta;
+    }
+
     private String apellido;
 
-    @Column(name="domicilio")
     private String domicilio;
 
-    @Column(name="dni")
     private String dni;
 
-    @Column(name = "fechaAlta")
-    private Date fechaAlta;
-    @OneToMany(mappedBy = "paciente")
-    @JsonIgnore
-    private Set<Turno> turnoPaciente;
-    
+    private String fechaAlta;
 
     public Long getId() {
         return id;
@@ -73,19 +75,11 @@ public class Paciente {
         this.dni = dni;
     }
 
-    public Date getFechaAlta() {
+    public String getFechaAlta() {
         return fechaAlta;
     }
 
-    public void setFechaAlta(Date fechaAlta) {
+    public void setFechaAlta(String fechaAlta) {
         this.fechaAlta = fechaAlta;
-    }
-
-    public Set<Turno> getTurnoPaciente() {
-        return turnoPaciente;
-    }
-
-    public void setTurnoPaciente(Set<Turno> turnoPaciente) {
-        this.turnoPaciente = turnoPaciente;
     }
 }
