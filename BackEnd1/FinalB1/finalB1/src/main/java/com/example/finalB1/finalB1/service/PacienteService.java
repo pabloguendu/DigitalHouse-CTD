@@ -10,10 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 @Service
 public class PacienteService implements IPacienteService {
@@ -30,9 +27,9 @@ public class PacienteService implements IPacienteService {
     }
 
     @Override
-    public Set<PacienteDto> getTodos() {
+    public List<PacienteDto> getTodos() {
         List<Paciente> listaPaciente= pacienteRepository.findAll();
-        Set<PacienteDto> pacienteDto= new HashSet<>();
+        List<PacienteDto> pacienteDto= new ArrayList<>();
         for (Paciente p:listaPaciente){
             pacienteDto.add(mapper.convertValue(p,PacienteDto.class));
         }
@@ -57,6 +54,8 @@ public class PacienteService implements IPacienteService {
     @Override
     public void modificarPaciente(PacienteDto pacienteDto) {
         Paciente p=mapper.convertValue(pacienteDto,Paciente.class);
-        pacienteRepository.save(p);
+        if(pacienteRepository.findById(p.getId()).isPresent()) {
+            pacienteRepository.save(p);
+        }
     }
 }

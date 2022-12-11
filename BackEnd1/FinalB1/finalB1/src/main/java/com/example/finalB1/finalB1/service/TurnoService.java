@@ -10,10 +10,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
+
 @Service
 public class TurnoService implements ITurnoService{
 
@@ -30,9 +28,9 @@ public class TurnoService implements ITurnoService{
     }
 
     @Override
-    public Set<TurnoDto> getTodos() {
+    public List<TurnoDto> getTodos() {
         List<Turno> listaTurno= turnoRepository.findAll();
-        Set<TurnoDto> turnoDto= new HashSet<>();
+        List<TurnoDto> turnoDto= new ArrayList<>();
         for (Turno t:listaTurno){
             turnoDto.add(mapper.convertValue(t,TurnoDto.class));
         }
@@ -53,7 +51,6 @@ public class TurnoService implements ITurnoService{
     @Override
     public void eliminarTurno(Long id) {
         turnoRepository.deleteById(id);
-
     }
 
     @Override

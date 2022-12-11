@@ -5,6 +5,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.List;
 import java.util.Set;
 
 
@@ -27,11 +28,15 @@ public class Paciente {
     private String dni;
 
     @Column(name = "fechaAlta")
-    private Date fechaAlta;
+    private String fechaAlta;
     @OneToMany(mappedBy = "paciente")
     @JsonIgnore
+<<<<<<< HEAD
     private Set<Turno> turnoPaciente;
     
+=======
+    private List<Turno> turnoPaciente;
+>>>>>>> 4be0c597166a4bab5026c40e1c0b6053bddf1747
 
     public Long getId() {
         return id;
@@ -73,19 +78,19 @@ public class Paciente {
         this.dni = dni;
     }
 
-    public Date getFechaAlta() {
+    public String getFechaAlta() {
         return fechaAlta;
     }
 
-    public void setFechaAlta(Date fechaAlta) {
+    public void setFechaAlta(String fechaAlta) {
         this.fechaAlta = fechaAlta;
     }
 
-    public Set<Turno> getTurnoPaciente() {
+    public List<Turno> getTurnoPaciente() {
         return turnoPaciente;
     }
 
-    public void setTurnoPaciente(Set<Turno> turnoPaciente) {
+    public void setTurnoPaciente(List<Turno> turnoPaciente) {
         this.turnoPaciente = turnoPaciente;
     }
 }

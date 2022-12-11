@@ -17,7 +17,31 @@ public class Turno {
     @JoinColumn(name = "odontologo_id", nullable = false )
     private Odontologo odontologo;
 
-    private Integer hora;
+    private String hora;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getHora() {
+        return hora;
+    }
+
+    public void setHora(String hora) {
+        this.hora = hora;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
 
     private String fecha;
 
