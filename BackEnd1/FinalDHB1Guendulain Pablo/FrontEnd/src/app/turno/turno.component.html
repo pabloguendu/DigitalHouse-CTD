@@ -1,0 +1,55 @@
+
+<div class="container">
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+
+        <h1 class="display-5 fw-bold">Listado de Turnos</h1>
+        
+        <table class="table table-primary">
+            <thead>
+              <tr>
+                <th colspan="2">Id</th>
+                <th colspan="2">Paciente</th>
+                <th colspan="2">Odontologo</th>
+                <th colspan="2">Fecha</th>
+                <th colspan="2">Hora</th>
+                <th colspan="2">Eliminar</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let turno of turnos$ | async" (click)="seleccionarTurno(turno)">
+                    <td>{{turno.id}}<td>
+                    <td>{{turno.paciente.nombre}} {{turno.paciente.apellido}}<td>
+                    <td>{{turno.odontologo.nombre}} {{turno.odontologo.apellido}}<td>
+                    <td>{{turno.fecha}}<td>
+                    <td>{{turno.hora}}<td>
+                    <td><button class="btn btn-danger" (click)="eliminarTurno(turno.id)">Eliminar turno</button><td>
+                </tr>
+
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+        <h1 class="display-5 fw-bold">Agregar un turno</h1>
+            <div class="form-goup">
+                <input type="text" class="form-control mt-3" placeholder="Fecha" [(ngModel)] ="fecha">
+                <input type="text" class="form-control mt-3" placeholder="Hora" [(ngModel)] ="hora"/>
+                <label for="OdontologoCrear">Odontologo</label>
+                <select name="OdontologoCrear" [(ngModel)]="odontologoSeleccionado">
+                    <option *ngFor="let odontologo of odontologos$ |async" [value]="odontologo.id" >{{odontologo.nombre}} {{odontologo.apellido}}</option>
+                </select>
+                <label for="PacienteCrear">Paciente</label>
+                <select name="PacienteCrear" [(ngModel)]="pacienteSeleccionado">
+                  <option *ngFor="let paciente of pacientes$ |async" [value]="paciente.id" >{{paciente.nombre}} {{paciente.apellido}}</option>
+              </select>
+            </div>
+
+            <button class="btn btn-success mt-3" (click)="crearTurno()">Agregar Turno</button>
+        </div>
+
+      </div>
+</div>

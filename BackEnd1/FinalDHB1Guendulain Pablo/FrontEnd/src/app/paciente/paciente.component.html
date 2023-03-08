@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+
+        <h1 class="display-5 fw-bold">Listado de odontólogos</h1>
+        
+        <table class="table table-primary">
+            <thead>
+              <tr>
+                <th colspan="2">Id</th>
+                <th colspan="2">Nombre</th>
+                <th colspan="2">Apellido</th>
+                <th colspan="2">Domicilio</th>
+                <th colspan="2">Dni</th>
+                <th colspan="2">fechaAlta</th>
+                <th colspan="2">Eliminar</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let paciente of pacientes$ | async" (click)="seleccionarPaciente(paciente)">
+                    <td>{{paciente.id}}<td>
+                    <td>{{paciente.nombre}}<td>
+                    <td>{{paciente.apellido}}<td>
+                    <td>{{paciente.domicilio}}<td>
+                    <td>{{paciente.dni}}<td>
+                    <td>{{paciente.fechaAlta}}<td>
+                    <td><button class="btn btn-danger" (click)="eliminarPaciente(paciente.id)">Eliminar paciente</button><td>
+                </tr>
+
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+        <h1 class="display-5 fw-bold">Agregar un paciente</h1>
+            <div class="form-goup">
+                <input type="text" class="form-control mt-3" placeholder="Nombre" [(ngModel)] ="nombre">
+                <input type="text" class="form-control mt-3" placeholder="Apellido" [(ngModel)] ="apellido"/>
+                <input type="text" class="form-control mt-3" placeholder="Domicilio" [(ngModel)] ="domicilio"/>
+                <input type="text" class="form-control mt-3" placeholder="Dni" [(ngModel)] ="dni"/>
+                <input type="text" class="form-control mt-3" placeholder="Fecha Alta" [(ngModel)] ="fechaAlta"/>
+            </div>
+
+            <button class="btn btn-success mt-3" (click)="crearPaciente()">Agregar paciente</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+            <h1 class="display-5 fw-bold">Modificar paciente</h1>
+            <div class="form-goup">
+                <input type="text" class="form-control mt-3" placeholder="Nombre" [(ngModel)] ="nombreMod">
+                <input type="text" class="form-control mt-3" placeholder="Apellido" [(ngModel)] ="apellidoMod"/>
+                <input type="text" class="form-control mt-3" placeholder="Domicilio" [(ngModel)] ="domicilioMod"/>
+                <input type="text" class="form-control mt-3" placeholder="Dni" [(ngModel)] ="dniMod"/>
+                <input type="text" class="form-control mt-3" placeholder="Fecha Alta" [(ngModel)] ="fechaAltaMod"/>
+            </div>
+            <button class="btn btn-warning mt-3" (click)="modifyPaciente()">Modificar paciente</button>
+        </div>
+      </div>
+    </div>
+</div>
+
